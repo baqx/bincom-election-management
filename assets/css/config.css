@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope");
+
+/* Color Variables */
+:root {
+  --primary-color: #ffffff; /* White - Represents peace and transparency */
+  --secondary-light: #b2e7a1; /* Light Green - Optimism, growth */
+  --secondary-color: #008751; /* Nigerian Green - Symbol of national unity */
+  --secondary-dark: #005732; /* Dark Green - Stability, trust */
+  --secondary-darker: #003a20; /* Deeper Green - Authority, leadership */
+  --text-color: #1a1a1a; /* Dark Gray for readability */
+  --overlay-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Semi-transparent overlay for UI effects */
+}
+
+/* Typography */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  color: var(--text-color);
+}

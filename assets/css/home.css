@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-light: #b2e7a1;
+    --secondary-color: #008751;
+    --secondary-dark: #005732;
+    --secondary-darker: #003a20;
+    --text-color: #1a1a1a;
+    --overlay-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+#filters {
+    background-color: var(--secondary-light);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-dark);
+    border-radius: 3px;
+    background-color: var(--primary-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid var(--secondary-light);
+}
+
+th {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+tr:nth-child(even) {
+    background-color: var(--secondary-light);
+}
+
+footer {
+    background-color: var(--secondary-darker);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    select {
+        width: 100%;
+    }
+}
