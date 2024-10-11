@@ -19,7 +19,7 @@ $lgaResults = $selectedLGA ? getLGAResults($conn, $selectedLGA) : [];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Election Results Dashboard</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="./assets/css/home.css">
 </head>
 
@@ -111,6 +111,7 @@ $lgaResults = $selectedLGA ? getLGAResults($conn, $selectedLGA) : [];
                             <tr>
                                 <td><?php echo $party; ?></td>
                                 <td><?php echo $score; ?></td>
+
                             </tr>
                         <?php endforeach; ?>
                     </tbody>
@@ -119,7 +120,7 @@ $lgaResults = $selectedLGA ? getLGAResults($conn, $selectedLGA) : [];
         <?php endif; ?>
     </main>
     <footer>
-        <p>&copy; 2024 Election Results Dashboard</p>
+        <p>&copy; 2024 Bincom Election Results Dashboard</p>
     </footer>
 </body>
 

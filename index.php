@@ -17,7 +17,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#features">Features</a></li>
-                <li><a href="#cta">Get Started</a></li>
+                <li><a href="./home.php">Dashboard</a></li>
             </ul>
         </nav>
     </header>
@@ -61,13 +61,13 @@
         <section id="cta" class="cta">
             <div class="container">
                 <h2>Ready to Dive In?</h2>
-                <a href="#" class="btn">Launch Dashboard</a>
+                <a href="./home.php" class="btn">Launch Dashboard</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Election Results Dashboard. Empowering informed decisions.</p>
+        <p>&copy; 2024 Bincom Election Results Dashboard</p>
     </footer>
 
     <script src="./assets/js/landing.js"></script>
