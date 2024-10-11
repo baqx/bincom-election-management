@@ -5,7 +5,7 @@ Welcome to the **Bincom Election Results Dashboard**, a simple platform that rev
 ## 📊 Key Features
 
 ### 🗳 Polling Unit Insights
-Analyze results from individual polling units across Delta State. Understand the voter turnout and performance at a granular level.
+Analyze results from individual polling units across Nigerian States. Understand the voter turnout and performance at a granular level.
 
 ### 🌍 LGA Summaries
 Get detailed summaries for Local Government Areas (LGAs) at a glance. View total votes, party performance, and other critical data.
